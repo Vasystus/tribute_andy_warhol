@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.13rem;
+  line-height: 1.5;
+  transition: all 725ms ease-in-out;
+  background-color: #e5f4f4;
+  overflow: auto;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  color: #990000;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #998000;
+}
+
+.container {
+  background: white;
+  margin: 0 auto;
+  padding: 5%;
+  width: 80%;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: black;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.gallery {
+  display: flex;
+  gap: 25px;
+  justify-content: space-evenly;
+  border: none;
+}
+
+p1 {
+  margin-bottom: 1rem;
+  color: black;
+  text-align: left;
+  font-size: 2rem;
+}
+
+ul {
+  text-align: left;
+}
+p,
+p1,
+li {
+  line-height: 1.5;
+}
+
+.andy {
+  cursor: pointer;
+  appearance: none;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: none;
+  background-color: DarkRed;
+  color: gold;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: inline-block;
+  margin: 4px 20px;
+  box-shadow: 0 9px #999;
+}
+.andy:hover {
+  background-color: #3e8e41;
+}
+.andy:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.candy {
+  cursor: pointer;
+  appearance: none;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: none;
+  background-color: #00468b;
+  color: gold;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: inline-block;
+  margin: 4px 20px;
+  box-shadow: 0 9px #999;
+}
+.candy:hover {
+  background-color: #3e8e41;
+}
+.candy:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+footer {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.muted {
+  font-style: italic;
+  color: #666;
+}
