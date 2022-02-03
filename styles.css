@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: "Quicksand", sans-serif;
   text-align: center;
@@ -16,10 +17,9 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0 1rem;
   font-size: 3rem;
   font-weight: bolder;
-  margin-bottom: 1rem;
   color: #990000;
 }
 
@@ -44,11 +44,15 @@ p {
   font-size: 22px;
 }
 
-.gallery {
+.gallery > div {
   display: flex;
   gap: 25px;
   justify-content: space-evenly;
   border: none;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ 
 }
 
 p1 {
@@ -67,6 +71,11 @@ li {
   line-height: 1.5;
 }
 
+.bttns {
+ display: flex;
+ padding: 25px;
+ justify-content: space-around;
+}
 .andy {
   cursor: pointer;
   appearance: none;
@@ -122,4 +131,8 @@ footer {
 .muted {
   font-style: italic;
   color: #666;
+}
+
+.facts {
+  padding: 20px;
 }
